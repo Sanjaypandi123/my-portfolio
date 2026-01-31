@@ -407,7 +407,8 @@ header .nav a:hover {
 @media all and (max-width:576px) {
     header {
         height: 10vh;
-        /* width: 50%; */
+        width: 72%;
+        /* border: 1px solid red; */
     }
     .homecontent .left-profile .profile {
         width: 80%;
@@ -438,7 +439,6 @@ header .nav a:hover {
 
     header .fa-xmark {
         display: block;
-        right: 150px;
         top: 20px;
     }
 
@@ -628,10 +628,12 @@ header .nav a:hover {
         font-size: .9rem;
     }
     .about .top .bottom{
+        /* border: 1px solid red; */
         padding: 0;
+        padding-left: 20px;
     }
     .about .top .bottom p{
-        font-size: .8rem;
+        font-size: .5rem;
     }
 }
 
@@ -1337,7 +1339,7 @@ header .nav a:hover {
 /* contact--page */
 
 .contact {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: white;
     font-family: var(--font2);
     display: flex;
@@ -1465,6 +1467,7 @@ header .nav a:hover {
     .contact .top{
         width: 60%;
         height: 50%;
+        padding-bottom: 50px;
     }
     .contact .top .input :nth-child(2){
         margin-left: 2px;
